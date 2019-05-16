@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import CSSModules from 'react-css-modules';
 import styles from './App.less'
-import Loading from './comom/modal'
+import LoadingUtil from "./util/loadingUtil";
 
 
 
@@ -15,6 +15,7 @@ class App extends Component {
     this.setState(prevState => ({
       clicks: prevState.clicks + 1
     }));
+    LoadingUtil.showLoading();
   }
   render() {
 
@@ -27,7 +28,6 @@ class App extends Component {
         <div styleName="sls">娱乐</div>
         <div styleName="sls">公益</div>
         <button onClick={this._onclick}>提交看这里</button>
-        <Loading />
       </div>
     );
   }

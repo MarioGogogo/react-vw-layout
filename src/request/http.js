@@ -1,6 +1,7 @@
 import axios from 'axios'
 // qs 是一个增加了一些安全性的查询字符串解析和序列化字符串的库。
 import qs from 'qs'
+import LoadingUtil from "../util/loadingUtil";
 // 在config.js文件中统一存放一些公共常量，方便之后维护
 import { baseURL } from './config.js'
 
