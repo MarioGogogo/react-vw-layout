@@ -253,6 +253,16 @@ img {
 执行``npm run build`` 查看打包文件
 ![clipboard.png](https://user-gold-cdn.xitu.io/2018/4/17/162d1ac29340aeac?w=800&h=233&f=jpeg&s=34166)
 
+#### 图标
+Font Awesome License: CC BY 4.0 License
+Ionicons License: MIT
+Material Design icons Version 2.0
+Typicons License: CC BY-SA 3.0
+Github Octicons icons License: MIT
+Feather License: MIT
+Game Icons License: CC BY 3.0
+Weather Icons License: SIL OFL 1.1
+
 
 ## 增加一些常用功能
 * [x] 配置less
@@ -262,5 +272,5 @@ img {
 * [x] 配置RouterV4
 * [ ] redux
 * [ ] saga
-* [ ] 图标库
+* [x] 图标库
 * [ ] 其他想想

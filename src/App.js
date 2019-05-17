@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './App.less'
 import LoadingUtil from "./util/loadingUtil";
+import { FaYoutube,FaHeart } from 'react-icons/fa';
 
 
 
@@ -21,7 +22,7 @@ class App extends Component {
 
     return (
       <div styleName="App">
-        hello vw-layout Number of clicks: {this.state.clicks}
+          hello vw-layout Number <FaHeart/>   <FaYoutube styleName="icon"/>of clicks: {this.state.clicks}
         <div styleName="sls">体育</div>
         <div styleName="sls">新闻</div>
         <div styleName="sls">政治</div>
@@ -39,4 +40,5 @@ class App extends Component {
 const NewApp = CSSModules(App, styles)
 
 export default NewApp
+
 
