@@ -8,17 +8,17 @@
  */
 
 let LoadingUtil = {
-  showLoading(timeOut = 10000){
+  showLoading(timeOut = 1000){
     global.mLoadingComponentRef && global.mLoadingComponentRef.showLoading();
     this.timerLoading = setTimeout(() => {
-      // this.dismissLoading();
+      this.dismissLoading();
       console.log('加载弹框出现把 啦啦啦')
     }, timeOut);
 
   },
   dismissLoading(){
     global.mLoadingComponentRef && global.mLoadingComponentRef.dismissLoading();
-    // this.timerLoading && clearTimeout(this.timerLoading);
+    this.timerLoading && clearTimeout(this.timerLoading);
 
   },
 };
