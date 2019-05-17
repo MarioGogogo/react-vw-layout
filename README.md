@@ -258,6 +258,8 @@ img {
 * [x] 配置less
 * [x] 配置全局样式
 * [x] axios全局封装
+* [x] 配置全局Loading
+* [x] 配置RouterV4
 * [ ] redux
 * [ ] saga
 * [ ] 图标库
